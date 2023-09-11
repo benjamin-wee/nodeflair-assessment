@@ -1,0 +1,23 @@
+.job-view {
+    padding-left: 2%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 97vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+@media (max-width: 1200px) {
+    .job-view {
+      display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .job-view {
+        flex: 1;
+        display: block; /* Display the large rectangle */
+    }
+}
